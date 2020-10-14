@@ -58,7 +58,7 @@ Basic commands for using Git
 
 ## Branching
 1. Creating a new branch `git branch "branchname"` <br\>
-    or you can do `git checkout -b "branchname"`
+    Or you can use `git checkout -b "branchname"`
 2. Checking the list of available branches `git branch`
 3. Point into a branch `git checkout "branchname"`
 4. Merging a branch into master branch <br\>
@@ -72,9 +72,15 @@ Basic commands for using Git
     2. Modification stash modified can be listed with `git stash list`
     3. Inspecting stash `git stash show`
     4. Returning the files and folder from stash `git stash apply`
- </br>
+    
  2. Git log
-
-
+    1. Checking the commit hash, author, date, and time `git log`
+ 
+ 3. Git revert
+    1. Revert to previous commit `git revert "8 first digit of the hash"`</br>
+        Or you can use `git revert HEAD` if you want to revert only the last commit.
+ 
+ 4. Git rebase - It takes a set of commit, copies and stores them outside your repository. It can also make linear sequence of commit.
+    1. Move all work from the current bracnch to the master branch `git rebase master`
 
 Thank you for reading this basic tutorial on using Git !
