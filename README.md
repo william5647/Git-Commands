@@ -31,9 +31,6 @@ Basic commands for using Git
    * Error Counter (FIX BELOW !!): 
      - git@github.com: Permission denied (publickey)
      - fatal: Could not read from remote repository
-     
-## Creating a local working copy of an existing remote repository
-1. Cloning files and folder from the remote repository `git clone "remote repo link"`
 
 ## Generating a new SSH key
 1. Open Git Bash.
@@ -55,6 +52,9 @@ Basic commands for using Git
 
 ## Push File and Folder into remote repository
 1. `git push origin master`
+
+## Creating a local working copy of an existing remote repository
+1. Cloning files and folder from the remote repository `git clone "remote repo link"`
 
 ## Branching
 1. Creating a new branch `git branch "branchname"` <br\>
