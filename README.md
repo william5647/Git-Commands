@@ -7,8 +7,9 @@ Basic commands for using Git
 `git init`
 
 ## Staging Area
-1. Adding file or directory into a local git repository 
+1. Adding file or directory into staging area
 `git add "file/directory"`
+`git add .` "Add all file and directory"
 2. Displays files which is needed to be commited
 `git status`
 3. Do a commit and display a message `git commit -m "First Commit !"`
