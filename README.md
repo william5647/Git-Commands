@@ -1,4 +1,4 @@
-# Git-Commands
+# Git-Commands 101
 Basic commands for using Git
 
 1. Version checking
