@@ -8,7 +8,7 @@ Basic commands for using Git
 
 ## Staging Area
 1. Adding file or directory into staging area
-`git add "file/directory"`
+`git add "file/directory"`<br/>
 `git add .` "Add all file and directory"
 2. Displays files which is needed to be commited
 `git status`
