@@ -78,6 +78,6 @@ Basic commands for using Git
     1. Revert to previous commit `git revert "8 first digit of the hash"`</br>
         Or you can use `git revert HEAD` if you want to revert only the last commit.
  4. Git rebase - It takes a set of commit, copies and stores them outside your repository. It can also make linear sequence of commit.
-    1. Move all work from the current bracnch to the master branch `git rebase master`
+    1. Move all work from the current branch to the master branch `git rebase master`
 
 Thank you for reading this basic tutorial on using Git !
