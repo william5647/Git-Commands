@@ -57,11 +57,11 @@ Basic commands for using Git
 1. Cloning files and folder from the remote repository `git clone "remote repo link"`
 
 ## Branching
-1. Creating a new branch `git branch "branchname"` <br\>
+1. Creating a new branch `git branch "branchname"` 
     Or you can use `git checkout -b "branchname"`
 2. Checking the list of available branches `git branch`
 3. Point into a branch `git checkout "branchname"`
-4. Merging a branch into master branch <br\>
+4. Merging a branch into master branch 
     1. Go to master branch `git checkout master`
     2. Merging `git merge "branchname"`
 5. Deleting a branch `git branch -d "branchname"`
